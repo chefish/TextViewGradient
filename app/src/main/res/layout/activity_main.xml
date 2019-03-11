@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#000000">
+
+   <TextView
+        android:id="@+id/tv_text_horizontal"
+        android:text="梦 里 面 看 我 七 十 二 变" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+   <TextView
+        android:id="@+id/tv_text_vertical"
+        android:text="梦 里 面 看 我 七 十 二 变" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+       />
+   <com.zy.textviewgradient.GradientHorizontalTextView
+        android:text="梦 里 面 看 我 七 十 二 变"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+       />
+
+    <com.zy.textviewgradient.SongTextView
+        android:id="@+id/tv_songtext"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+       android:gravity="center_horizontal"
+        />
+
+  <ProgressBar
+        android:id="@+id/pb1"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:max="100"
+        android:maxHeight="2dp"
+        android:minHeight="2dp"
+        android:progress="20"
+        android:progressDrawable="@drawable/m_progress_horizontal"
+        android:secondaryProgress="30"
+       />
+</LinearLayout>
